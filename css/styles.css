@@ -1,0 +1,135 @@
+header {
+    background-color: #4D7B95;
+    
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    padding: 1%;
+    color: white;
+    font-size: 64px;
+    font-family:'Times New Roman', Times, serif,
+}
+
+nav {
+    width: 50%;
+    padding: 1%;
+    text-align:center
+    
+}
+
+.logo {
+    width: 50%;
+    padding: 10%;
+    text-align: center;
+}
+
+ul {
+    width: 100%;
+}
+
+.selfie {
+    height: 600px;
+    padding: 10%;
+    margin-left: 25%;
+}
+body {
+    background-color:#AE8080;
+}
+
+.content {
+    background-color: black;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.name {
+    color: white;
+    font-size: 64px;
+    text-align: center;
+}
+
+.text {
+    font-style: regular;
+
+    color: white;
+    margin-left: 35%;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+
+}
+
+button {
+    background-color: #AE8080;
+    margin-left: 47%;
+    color: white;
+    height: 60px;
+    width: 80px;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: black;
+    color: white;
+}
+.foot {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 36px;
+    text-align:center
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+   
+}
+
+.skillCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    text-align: center;
+   
+}
+h1 {
+    font-size: 36px;
+}
+
+#myWork-Grid {
+    background-color: #4D7B95;
+   color: white;
+   display: grid;
+   grid-template-rows: max-content 3fr 3fr max-content;
+}
+
+#mySkills {
+    background-color: white;
+}
+
+.skills {
+    text-align: center;
+}
+
+.work {
+    text-align: center;
+    font-size: 36;
+}
+
+.project-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 600){
+    .project details {
+        color: yellow;
+    }
+}
+
+.nav-item {
+    align-items: center;
+}
